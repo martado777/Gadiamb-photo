@@ -1,0 +1,96 @@
+.menu {
+    background-color: #2A7618;
+    overflow: hidden;
+    text-align: right;
+  }
+  
+  .menu li {
+    display: inline;
+    padding: 0 10px;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu li a.accueil {
+    color: yellow;
+  }
+
+.container {
+  display: flex;
+}
+
+.left-column {
+  flex: 1;
+  text-align: left;
+}
+
+.right-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.right-column input[type="text"],
+.right-column select {
+  margin-bottom: 20px;
+  background-color: #a5dd98; /* Couleur de fond */
+  color: #000000; /* Couleur du texte */
+  word-wrap: break-word; /* Pour les navigateurs modernes */
+  overflow-wrap: break-word;
+  width: 70%;
+  height: 60px;
+}
+
+.right-column input[type="text"]::placeholder,
+.right-column select::placeholder {
+  color: #5c5c5c; /* Couleur du texte gris */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.texteGauche {
+  flex: 1;
+}
+
+.liensDroite {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; /* Pour aligner verticalement les éléments à droite */
+}
+
+.liensDroite a {
+  margin-left: 30px;
+}
+
+.texteGauche p {
+  font-size: 40px; /* Modifier la taille selon vos besoins */
+}
+
+.menu img {
+  display: block;
+  margin: 10px;
+  width: 90px;
+  height: 40px;
+}
+
+.logo {
+  float: left;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #2A7618;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}

@@ -1,0 +1,39 @@
+.menu {
+    background-color: #2A7618;
+    overflow: hidden;
+    text-align: right;
+  }
+  
+  .menu li {
+    display: inline;
+    padding: 0 10px;
+  }
+  
+  .menu li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu li a.accueil {
+    color: yellow;
+  }
+
+  .image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* 3 colonnes égales */
+    grid-gap: 10px; /* Espace entre les images */
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+  }
+
+
+.cadre {
+  border: 2px solid black;
+  padding: 20px;
+  width: 300px; /* Modification de la taille du cadre */
+  margin: 0 auto;
+  text-align: center;
+}
